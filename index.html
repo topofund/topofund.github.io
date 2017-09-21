@@ -1,0 +1,38 @@
+
+<html>
+  <head>
+    <title>¡México te necesita! Donativos a Topos Tlatelolco</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta http-equiv="x-ua-compatible" content="ie=edge"/>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="inner-wrap">
+        <div class="header">
+          <div class="emoji">🤝</div>
+          <h1>Topos te necesita</h1>
+          <h2>Este sitio fue creado como un respaldo del <a href="http://topos.mx">sitio oficial</a> para ayudar a recolectar donativos para Topos de Tlatelolco via Paypal.<span>#FuerzaMéxico</span></h2>
+        </div>
+        <div class="main">
+          <h3>Tus donativos marcarán la diferencia</h3>
+          <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+            <input type="hidden" name="business" value="donativos@brigada-rescate-topos.org"/>
+            <!--Specify a Donate button. -->
+            <input type="hidden" name="cmd" value="_donations"/>
+            <!--Specify details about the contribution-->
+            <input type="hidden" name="item_name" value="Earthquake donation"/>
+            <input type="hidden" name="item_number" value="Mexico relief effort"/>
+            <input type="text" name="amount" value="100"/>
+            <input type="hidden" name="currency_code" value="MXN"/>
+            <!--Display the payment button.-->
+            <input type="submit" value="Donar" name="submit" title="¡Tus donaciones hacen la diferencia!"/><img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"/>
+          </form><span>Procesado por Paypal, tú aportación es segura.</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
